@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+    <Name value="AmbientPatrolHelicopter" />
+    <DisplayName value="Ambient Patrol Helicopter" />
+    <Version value="0.3.19" />
+    <Description value="An immersive OH-58 patrol helicopter event that circles survivors, attacks zombies, fires harmless warning passes near players, uses a searchlight at night, and can release an airdrop before departing." />
+    <Author value="Nox, Flanua, https://www.nexusmods.com/7daystodie/mods/1035 ,Manux , Bdubyah" />
+    <Website value="https://www.nexusmods.com/7daystodie/mods/12855" />
+</xml>
