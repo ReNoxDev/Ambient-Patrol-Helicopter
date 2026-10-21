@@ -1,0 +1,33 @@
+Change Log Test:
+
+APH test2;
+
+Each ammo line uses ITEM_ID=COUNT. 
+
+//Example Item ID its name from Creative Window ammo762mmBulletBall=100   Name/Reward Amount\\
+
+APHAmmoDrops.txt for when you fight the Helicopter what drops.
+
+// Stores ammoname/amount remove what you dont want included and add in what you want to include\\
+
+APHAirdropAmmo.txt for the Airdrops it drops without fighting it.
+
+//Example Item ID its name from Creative Window ammo762mmBulletBall=100   Name/Reward Amount\\
+
+// Stores ammoname/amount remove what you dont want included and add in what you want to include\\
+
+Enter the exact IDs from the installed EFTX, UL or other mod. 
+ReplaceExistingAmmo=true replaces rolled ammo while preserving other loot. 
+
+Run "ph reloadammo" (as local host with DM enabled afterward. Changes affect newly generated loot.)
+
+Attempt 1 fixing Flight Pathing for poi 2 poi transit, it was never ment to focus soley on player unless player shoots it, unlike Home Gaurd which is ment to 
+focus on player as a deffender addon Reward. 
+
+APJ test2;
+
+Loot error: new rewards use native containers compatible with UL’s expected type.
+Stuck messages: spawn announcement moves to chat; persistent “Out of view” text is removed.
+Driving: detours preserve emergency braking; patrol speed is reduced.
+Shooting: turret range capped at 80m, passenger at 60m, with final range and visibility checks.
+Dismounted passenger: raised-arm aiming; firing requires a ready weapon and muzzle.
