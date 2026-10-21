@@ -1,6 +1,21 @@
 Change Log Test:
 
-APH test2;
+
+APH test 3;
+
+Reset Patrol Radius to stay within max Distance of Players firing range, Added back in Configurable Settings for this distance. Seems UL version wasnt using my prior Patrol Settings Set UP
+
+- Bounds neutral patrols to 160m, including height.
+- Slows flight and turns inward early.
+- Keeps moving between nearby POIs and zombie areas.
+- Tries a visible approach when sight becomes blocked.
+Edit APHPatrolArea.txt to reduce MaxDistance to 120 if needed. Buildings, terrain and camera direction can still obstruct visibility.
+
+
+
+
+
+APH test 2;
 
 Each ammo line uses ITEM_ID=COUNT. 
 
@@ -31,3 +46,5 @@ Stuck messages: spawn announcement moves to chat; persistent “Out of view” t
 Driving: detours preserve emergency braking; patrol speed is reduced.
 Shooting: turret range capped at 80m, passenger at 60m, with final range and visibility checks.
 Dismounted passenger: raised-arm aiming; firing requires a ready weapon and muzzle.
+
+
