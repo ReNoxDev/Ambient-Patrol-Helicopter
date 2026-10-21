@@ -1,5 +1,18 @@
 Change Log Test:
 
+APJ Test 3;
+
+Driving Logic Breaking Again on little things, CorpseProtection issue, explossion Call was still missing, 
+Adjusting Spawn event Timer to more of a Random Start with a Configurable delay changeable setting. 
+
+-The timer now picks a delay between EventDelayMinMinutes and EventDelayMaxMinutes, defaulting to 20–40 real minutes. 
+It pauses while nobody is alive online or a patrol is active, and keeps the existing daily event limit.
+
+Repairing Reward Containers yet again, hopefully they dont revert to invisable state or falling through world. 
+
+-as usual throwing shit at the wall until something sticks fingers crossed id dont rebreak something else that was fixed. 
+
+
 
 APH test 3;
 
